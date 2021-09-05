@@ -1,0 +1,104 @@
+@font-face{
+  src: url("./fonts/PlayfairDisplay_Black.ttf");
+  font-family: PlayfairDisplay;
+}
+/* 5 COLUMN */
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+/* 5 COLUMN END */
+
+.App {
+  /* text-align: center; */
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.cookie-policy{
+  width: 100%;
+  /* background-color: crimson; */
+  background-color: #513b53;
+  padding: 20px 10px;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  z-index: 20;
+  font-size: 16px;
+}
+.cookie-policy-btn{
+  background-color: #e7d005;
+  color: #333;
+  padding: 6px 24px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  margin-top: -10px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* MEDIA QUERIES */
+/* MOBILE // SMALL DEVICES */
+@media only screen and (max-width: 766px) {
+  .g-header{
+    display: none;
+  }
+  .g-navigation{
+    display: none;
+  }
+}

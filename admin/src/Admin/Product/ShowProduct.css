@@ -1,0 +1,140 @@
+.showProduct-topPanel{
+    margin-top: 30px;
+}
+.showProduct-tableHead > th{
+    text-align: center
+}
+.showProduct-tableBody-td{
+    padding-top: 30px !important;
+}
+.showProduct-tableBody-imgRow{
+  padding-top: 3px !important;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  .card-head-img{
+    width: 70px;
+  }
+  .card-head-title{
+    font-size: 35px;
+    vertical-align: middle;
+  }
+  
+  .switch input {display:none;}
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+.showProduct-imgBtn{
+    cursor: pointer;
+    width:35px;
+    height:35px;
+}
+.page-numbers{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.page-numbers > li{
+    cursor: pointer;
+}
+.modal-content{
+  padding: 10px;
+}
+.cissa-table-header{
+  background-color: transparent !important;
+  padding-top: 15px !important;
+  text-transform: uppercase;
+  padding-bottom: 15px !important;
+  color: #555;
+}
+
+
+/* Arrows */
+.toggler{
+  opacity: 0.2 !important;
+}
+.cissa-table-header:hover .toggler{
+opacity: 1 !important;
+}
+
+/* Edit product */
+.percent_slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  margin-top: 10px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.percent_slider:hover {
+  opacity: 1;
+}
+
+.percent_slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.percent_slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+}

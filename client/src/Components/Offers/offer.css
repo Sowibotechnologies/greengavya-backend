@@ -1,0 +1,55 @@
+.content {
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    position: relative;
+    background: #3fb666;
+    height: 45px;
+}
+    
+    .content .line {
+    position: absolute;
+    right: 0;
+    -webkit-animation: dude 2s  forwards infinite;
+    
+    -moz-animation: dude 2s  forwards infinite;
+    
+    -o-animation: dude 2s  forwards infinite;
+    
+    animation: dude 20s  forwards infinite;
+    
+     }
+    
+         @-webkit-keyframes dude {
+      0% {
+        width: 0;
+      }
+      100% {
+        width: 100%;
+      }
+    }
+    @-moz-keyframes dude {
+      0% {
+        width: 0;
+      }
+      100% {
+        width: 100%;
+      }
+    }
+    @-o-keyframes dude {
+      0% {
+        width: 0;
+      }
+      100% {
+        width: 100%;
+      }
+    }
+    @keyframes dude {
+      0% {
+        width: 100%;
+      }
+      100% {
+        width: 0%;
+      }
+    }

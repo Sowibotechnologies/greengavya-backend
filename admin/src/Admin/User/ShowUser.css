@@ -1,0 +1,19 @@
+/* Arrows */
+.toggler{
+    opacity: 0.2 !important;
+}
+.cissa-table-header:hover .toggler{
+opacity: 1 !important;
+}
+.user-declaration{
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+}
+.left-head{
+    text-align: left !important;
+}
+.left-cell{
+    text-align: left !important;
+    font-size: 18px;
+}

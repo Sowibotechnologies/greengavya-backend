@@ -1,0 +1,11 @@
+.settings-list{
+    -webkit-padding-start: 10px;
+    padding-inline-start: 10px;
+    margin-top: 60px;
+    list-style-type: none;
+}
+.settings-list li{
+    cursor: pointer;
+    color: #333;
+    margin-top: 14px;
+}

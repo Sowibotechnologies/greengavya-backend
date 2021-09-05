@@ -1,0 +1,6 @@
+.heart-beat{
+    animation: beat 5s infinite alternate;
+}
+@keyframes beat{
+	to { transform: scale(1.1); }
+}

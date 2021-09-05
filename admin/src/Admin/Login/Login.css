@@ -1,0 +1,35 @@
+.login-inner{
+    margin: auto;
+    margin-top: 20vh;
+}
+.login-main{
+    height: 100vh; 
+    background-color: #fff;
+}
+.login-head{
+    text-align: center; 
+    color: #636363;
+}
+.login-btn{
+    margin-top: 20px ;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.login-form{
+    text-align: -webkit-center;
+    margin-top: 60px;
+}
+.login-input{
+    font-weight: 600;
+    color: #403866;
+    border-radius: 3px !important;
+    background-color: #e6e6e6;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
+

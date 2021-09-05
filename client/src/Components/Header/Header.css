@@ -1,0 +1,217 @@
+.home-head{
+    font-family: Quicksand;
+}
+.home-head-link{
+    text-decoration: none !important;
+    color: #000;
+}
+.home-head-link:hover{
+    color: #000;
+}
+.nav-above{
+    padding: 45px 78px 68px 78px;
+}
+.home_search_bar_div{
+    outline: none;
+    height: 25px;
+    width: 230px;
+    color: #777777;
+    font-size: 12px;
+    margin-bottom: 7px;
+}
+.home_search_bar_input{
+    height: 25px;
+    margin-right: 12px;
+}
+.home_search_icon_btn{
+    height: 25px;
+}
+.home_counter_icon_btn{
+    height: 25px;
+}
+.home_search_icon_btn i{
+    top: -2px;
+    color: #333;
+}
+.header-search-result-div{
+    position: absolute;
+    width: 230px;
+    background-color: #fdfdfd;
+    left: 0px;
+    top: 25px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    max-height: 350px;
+    z-index: 20;
+    overflow: overlay;
+    box-shadow: 1px 1px 10px 2px #ddd;
+}
+.header-search-result-ul{
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+.header-search-result-ul li{
+    font-size: 14px;
+    padding: 6px 2px 6px 8px;
+    border-bottom: 1px solid #f2f2f2;
+    cursor: pointer;
+    color: #333;
+}
+.header-search-result-ul li:last-child{
+    border-bottom: none;
+    padding-bottom: 0px;
+}
+.header-search-result-ul li:hover{
+    text-decoration: underline;
+}
+.search-not-found:hover{
+    text-decoration: none !important; 
+}
+.search-close-btn{
+    float: right;
+    margin-right: 6px;
+    color: #bbb;
+}
+.search-close-btn:hover{
+    color: #333;
+}
+.home-side-ul li a{
+    color: #555555;
+}
+.home-side-checkoutpanel{
+    clear: both;
+    float: right;
+}
+.home-side-checkoutpanel-cart{
+    background-color: #93d2c3;
+    border-radius: 50%;
+    padding: 6px;
+    color: #fff;
+    margin-right: 5px;
+}
+.home-side-checkoutpanel a{
+    color: #555555;
+    border-color: #93d2c3;
+    padding: 1px 20px;
+    font-size: 13px;
+    line-height: 22px;
+    border-radius: 4px;
+}
+.btn-top-checkout{
+    transition: 0.2s;
+}
+.btn-top-checkout:hover{
+    background-color: #93d2c3;
+    color: #fff;
+}
+.list-inline li {
+    padding: 0 18px;
+    border-right: 1px solid #bababa;
+    margin-bottom: 7px;
+}
+.header-close-btn{
+    position: absolute;
+    top: 4px;
+    left: 172px;
+    z-index: 10;
+    background-color: #b3b3b3;
+    height: 18px;
+    width: 18px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+}
+/*  */
+.sm-header{
+    
+}
+.sm-header-logo{
+    height: 50px;
+    margin-top: -10px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+.sm-header-searchbar-ip{
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    height: 32px;
+    padding-left: 10px;
+    width: 100%;
+}
+.sm-header-searchbar{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.sm-header-search-icon-btn{
+    height: 32px;
+}
+.sm-header-user-profile{
+    padding-left: 14px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 14px;
+}
+.sm-header-user-welcome{
+    color: #fff;
+    margin-bottom: 0px !important;
+    margin-top: 10px !important;
+}
+.sm-header-close-btn{
+    position: absolute;
+    top: 12px;
+    z-index: 10;
+    background-color: #b3b3b3;
+    height: 18px;
+    width: 18px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    right: 46px;
+}
+.sm-header-cartcount{
+    position: absolute;
+    right: 5px;
+    z-index: 10;
+}
+/* SIDENAV */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    background-color: #232f3e;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 24px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 14px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }

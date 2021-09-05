@@ -1,0 +1,184 @@
+.purchaseDetail-main{
+    background-color: #a3a3a31c;
+    height:1000px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 0.5px solid #33333361;
+}
+.purchaseDetail-formGroup{
+    padding: 20px;
+}
+.purchaseDetails-panelHead{
+    background-color: #fff !important;
+}
+.purchaseDetails-select{
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+@media print {
+    body {
+      visibility: hidden;
+    }
+    .print {
+      visibility: visible;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  }
+  .fixed-pagination{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+  }
+  .order-id-xs{
+    color: #929292;
+  }
+  .orders-td{
+    vertical-align: middle !important;
+  }
+  .btn-pill{
+    text-decoration:none;
+    color:#fff;
+    font-size:12px;
+    font-weight:bold;
+    padding:0 15px;
+    line-height:32px;
+    height: auto;
+    display:inline-block;
+    text-align:center;
+    border-radius: 16px;
+  }
+  .btn-pill-select{
+    cursor: pointer;
+    text-decoration:none;
+    color:#fff;
+    font-size:17px;
+    padding:0 15px;
+    line-height:32px;
+    height: auto;
+    display:block;
+    margin: 20px;
+    text-align:center;
+    border-radius: 16px;
+  }
+  .pending-status{
+    background-color: #FF5722;
+  }
+  .confirmed-status{
+    background-color: #2196f3;
+  }
+  .pickedup-status{
+    background-color: #8bc34a;
+  }
+  .cancelled-status{
+    background-color: #9e9e9e;
+  }
+  .rejected-status{
+    background-color: red;
+  }
+  .delivered-status{
+    background-color: #4caf50;
+  }
+  .table-responsive{
+    overflow-x: unset;
+  }
+  .rejected-status-text{
+    text-decoration-line: line-through;
+  }
+  .courier-pill{
+    float: right;
+    padding: 12px;
+    width: 100%;
+    color: #636363 !important;
+    border-radius: 40px;
+    text-decoration: none !important;
+    background-color: #fff;
+    transition: width .35s;
+    -webkit-transition: width .35s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    overflow: hidden;
+  }
+  .courier-pill-name{
+    font-size: 11px;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    right: -8px;
+    bottom: -4px;
+    overflow: hidden;
+    line-height: 18px;
+    letter-spacing: 3px;
+  }
+
+  /* Animated checkbox */
+  .inline {
+    vertical-align: top;
+  }
+  .checkbox label:after, 
+.radio label:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.checkbox .cr,
+.radio .cr {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #a9a9a9;
+    border-radius: .25em;
+    width: 1.3em;
+    height: 1.3em;
+    float: left;
+    margin-right: .5em;
+    color: #4CAF50;
+}
+
+.radio .cr {
+    border-radius: 50%;
+}
+
+.checkbox .cr .cr-icon,
+.radio .cr .cr-icon {
+    position: absolute;
+    font-size: .8em;
+    line-height: 0;
+    top: 50%;
+    left: 20%;
+}
+
+.radio .cr .cr-icon {
+    margin-left: 0.04em;
+}
+
+.checkbox label input[type="checkbox"],
+.radio label input[type="radio"] {
+    display: none;
+}
+
+.checkbox label input[type="checkbox"] + .cr > .cr-icon,
+.radio label input[type="radio"] + .cr > .cr-icon {
+    transform: scale(3) rotateZ(-20deg);
+    opacity: 0;
+    transition: all .3s ease-in;
+}
+
+.checkbox label input[type="checkbox"]:checked + .cr > .cr-icon,
+.radio label input[type="radio"]:checked + .cr > .cr-icon {
+    transform: scale(1) rotateZ(0deg);
+    opacity: 1;
+}
+
+.checkbox label input[type="checkbox"]:disabled + .cr,
+.radio label input[type="radio"]:disabled + .cr {
+    opacity: .5;
+}

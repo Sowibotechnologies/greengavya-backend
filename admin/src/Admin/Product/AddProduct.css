@@ -1,0 +1,25 @@
+.addProduct-main{
+    margin-top: 50px;
+}
+.addProduct-btnPanel{
+    margin-top: 20px;
+}
+.modal-btn{
+    border: none;
+    background-color: white;
+    color: black;
+    padding: 12px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.success:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+.greyed:hover {
+    background-color: #d0d0d0;
+}
+.danger:hover {
+background: #f44336;
+color: white;
+}

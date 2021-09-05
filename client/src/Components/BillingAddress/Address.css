@@ -1,0 +1,70 @@
+.address-subtitle{
+    font-size: 18px;
+    font-weight: 400;
+}
+.address-textfield{
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 6px 12px;
+}
+.address-textfield:focus{
+    outline-color: #93d2c3 !important;
+}
+.address-textfield-err:focus{
+    outline-color: #bb1d1d !important;
+}
+.address-textfield-err{
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #bb1d1d;
+    padding: 6px 12px;
+}
+.address-btn{
+    float: right;
+    margin-top: 10px;
+    background-color: #93d2c3;
+    color: #fff;
+    border: 1px solid #93d2c3;
+    border-radius: 4px;
+    padding: 6px 12px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.address-btn:hover{
+    background-color: #fff;
+    color: #93d2c3;
+}
+.address-new > p{
+    margin-block-end: 0px;
+    margin-block-start: 12px;
+}
+.address-selectoption{
+    border-radius: 4px;
+    width: 100%;
+    padding: 6px 10px;
+    border: 1px solid #ddd;
+}
+.address-saved-div{
+    padding-bottom: 10px;
+}
+.address-saved-div p{
+    margin: 0px;
+}
+.address-use-btn{
+    margin-top: 10px;
+    background-color: #93d2c3;
+    color: #fff;
+    border: 1px solid #93d2c3;
+    border-radius: 4px;
+    padding: 6px 12px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.address-use-btn:hover{
+    background-color: #5ed4b8;
+}
+.address-err-msg{
+    color: #ca0202;
+    margin: 2px 0px;
+}

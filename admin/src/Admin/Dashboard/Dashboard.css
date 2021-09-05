@@ -1,0 +1,225 @@
+body{
+    background-color: #f4f4f4;
+}
+.pagination>.active>button, .pagination>.active>button:focus, .pagination>.active>button:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+  z-index: 3;
+  color: #fff;
+  cursor: pointer;
+  background-color: #337ab7;
+  border: none;
+  padding: 5px 12px;
+  box-shadow: 0 4px 6px 1px #337ab799;
+}
+.pagination-button {
+  z-index: 3;
+  color: #000;
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+  padding: 5px 12px;
+}
+.btn-add{
+    color: #fff;
+    background-color: transparent;
+    border: 1.5px solid #fff;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+.btn-add:hover{
+    background-color: #fff;
+    color: #02ab63;
+}
+.search-input{
+  color:#a3a3a3;
+  margin-top: 10px;
+  box-sizing: border-box;
+  border: 2px solid #a3a3a3;
+  font-size: 16px;
+  background-color: transparent;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 10px 20px 10px 40px;
+  border-radius: 35px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+.search-input::placeholder{
+	color:#a3a3a3;
+}
+.search-input{
+  background-color: transparent;
+}
+.top-nav-user{
+    list-style: none;
+    padding: 10px 25px 10px 25px;
+}
+.top-nav-user :hover{
+    background-color: transparent;
+}
+.dash-counter-col{
+    margin-top: 20px;
+}
+.dash-counter-head{
+    /* color: #a3a3a3;
+    font-size: 30px; */
+    color: #303c44;
+    font-size: 18px;
+}
+.dash-counter-num{
+    font-size: 50px !important;
+    color: #303c44;
+}
+.dash-counter-alert-num{
+    font-size: 50px !important;
+    color: red;
+}
+.card{
+    background-color: #fff;
+    padding: 8px 20px 8px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.top-nav{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#wrapper {
+  padding-left: 250px;
+  transition: all 0.4s ease 0s;
+}
+.btn-menu{
+    font-size: 30px;
+}
+#sidebar-wrapper {
+  margin-left: -255px;
+  top: 0px;
+  left: 250px;
+  width: 255px;
+  background: #fff;
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+  z-index: 1000;
+  transition: all 0.4s ease 0s;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#wrapper.active {
+  padding-left: 0;
+}
+
+#wrapper.active #sidebar-wrapper {
+  left: 0;
+}
+
+#page-content-wrapper {
+  width: 100%;
+  transition: all 0.4s ease 0s;
+}
+
+.sidebar-nav {
+  position: absolute;
+  top: 0px;
+  width: 250px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+.sidebar-nav li {
+  line-height: 40px;
+  text-indent: 20px;
+  border-bottom: 1px solid #99999930;
+}
+
+.sidebar-nav li a {
+  color: #616161;
+  display: block;
+  text-decoration: none;
+}
+
+.sidebar-nav li a span:before {
+  position: absolute;
+  left: 0;
+  color: #41484c;
+  text-align: center;
+  width: 20px;
+  line-height: 18px;
+}
+
+.sidebar-nav li a:hover,
+.sidebar-nav li:active {
+  color: #fff;
+  font-size: 20px;
+  background: #02ab63;
+  text-decoration: none;
+}
+.sidebar-nav li a:focus{
+  color: #fff;
+  font-size: 20px;
+  background: #02ab63;
+  text-decoration: none;
+}
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+  height: 65px;
+  line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+  color: #a3a3a3;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+  color: #fff;
+  background: none;
+}
+
+#menu-toggle {
+    text-decoration: none;
+    float: left;
+    color: #716f6f;
+    padding-right: 15px;
+}
+.sidebar-nav-li{
+  margin-top: 50px;
+}
+
+/* @media (max-width:767px) { */
+@media (max-width:1441px) {
+
+#wrapper {
+  padding-left: 0;
+}
+
+#sidebar-wrapper {
+  left: 0;
+}
+
+#wrapper.active {
+  position: relative;
+  left: 250px;
+}
+
+#wrapper.active #sidebar-wrapper {
+  left: 250px;
+  width: 250px;
+  transition: all 0.4s ease 0s;
+}
+
+#menu-toggle {
+  display: inline-block;
+}
+.sidebar-nav-li{
+  margin-top: 10px !important;
+}
+
+}

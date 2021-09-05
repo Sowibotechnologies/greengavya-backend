@@ -1,0 +1,125 @@
+.top-nav{
+    height: 80px;
+}
+.top-nav-head{
+    font-size: 50px;
+    color:white;
+    float: left;
+}
+.top-nav-signout{
+    float: right;
+}
+
+.navigation {
+  width: 100%;
+  background-color: black;
+}
+
+.top-nav-img {
+  width: 25px;
+  border-radius: 50px;
+  float: left;
+  -webkit-animation: bounceRight 10s infinite;
+  animation: bounceRight 10s infinite;
+}
+
+.logout {
+  font-size: 11px;
+  font-family: 'Oswald', sans-serif;
+	position: relative;
+  right: -8px;
+  bottom: -4px;
+  overflow: hidden;
+  line-height: 18px;
+  letter-spacing: 3px;
+  opacity: 0;
+  transition: opacity .45s;
+  -webkit-transition: opacity .35s;
+  
+}
+
+.top-nav-button {
+  text-decoration: none;
+  float: right;
+  padding: 12px;
+  margin: 15px;
+  color: #636363 !important;
+  width: 47px;
+  border-radius: 40px;
+  text-decoration: none !important;
+  background-color: #fff;
+  transition: width .35s;
+  -webkit-transition: width .35s;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  overflow: hidden
+}
+
+.top-nav-button:hover {
+  width: 130px;
+}
+
+.top-nav-button:hover .logout{
+  opacity: .9;
+}
+
+.top-nav-button {
+  text-decoration: none;
+}
+.top-nav-username{
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #636363;
+}
+
+/* Animation */
+@-webkit-keyframes bounceRight {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  40% {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+  60% {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+}
+@-moz-keyframes bounceRight {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateX(0);
+  }
+  40% {
+    transform: translateX(-10px);
+  }
+  60% {
+    transform: translateX(-5px);
+  }
+}
+@keyframes bounceRight {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+  40% {
+    -ms-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+  60% {
+    -ms-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+}
